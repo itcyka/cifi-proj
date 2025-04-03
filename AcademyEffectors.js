@@ -303,39 +303,9 @@ const sections = [
         text: 'Lv2: Material x9; Lv5: Speed *1.5',
         textClassName: 'font-normal',
       },
-      {
-        id: 'perfection3',
-        type: 'select',
-        label: 'Perfection Analysis <s>3</s>2 <span class="text-super">3</c>',
-        maxLevel: 6,
-        text: 'Lv2: Material x5; Lv5: Speed *2',
-        textClassName: 'font-normal',
-      },
-      {
-        id: 'perfection4',
-        type: 'select',
-        label: 'Perfection Analysis <s>4</s>3 <span class="text-super">4</c>',
-        maxLevel: 6,
-        text: 'Lv2: Material x9; Lv5: Speed *2',
-        textClassName: 'font-normal',
-      },
-      {
-        id: 'construction1',
-        type: 'select',
-        label: 'Construction Analysis 1',
-        maxLevel: 6,
-        text: 'Proj Cost: - , /1.5 , - , /2, - , /2.5',
-        textClassName: 'font-normal',
-      },
-      {
-        id: 'construction2',
-        type: 'select',
-        label: 'Construction Analysis 2',
-        maxLevel: 6,
-        text: 'Proj Cost: - , /2 , /3 , /3 , /4 , /4',
-        textClassName: 'font-normal',
-      },
-    ].map((i) => {
+     
+    ]
+      .map((i) => {
       i.labelClassName = 'font-normal'
       return i
     }),
