@@ -321,7 +321,7 @@ function GetStaticMatBonus() {
   if (playerData.diamonds.ultima.materialBonus > 1)
     staticMatBonus *= playerData.diamonds.ultima.materialBonus
   if (playerData.diamonds.iapCollector) 
-    if (playerData.ouro.exodus3) staticMatBonus *= 100
+    if (playerData.fleet.ouro.exodus3) staticMatBonus *= 100
     else staticMatBonus *= 1.5
 
   // proj
