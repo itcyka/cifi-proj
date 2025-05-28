@@ -35,6 +35,7 @@ const blankPlayer = {
     ouro: {
       crew: 0,
       installs: [0, 0, 0, 0, 0, 0],
+      exodus3: 0,
     },
   },
   loopMods: {
