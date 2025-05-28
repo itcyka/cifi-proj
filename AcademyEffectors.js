@@ -439,6 +439,9 @@ academyEffectorPortal.pages.default.dataLinkage = {
   set ouroinstall5(value) {
     playerData.fleet.ouro.installs[4] = value
   },
+  set exodus3(value) {
+    playerdata.fleet.ouro.exodus3 = value
+  }.
   set warpdrive(value) {
     playerData.academy.projectLevels[5] = value
   },
@@ -525,9 +528,6 @@ academyEffectorPortal.pages.default.dataLinkage = {
   set iapCollector(value) {
     playerData.diamonds.iapCollector = value
   },
-  set exodus3(value) {
-    playerdata.fleet.ouro.exodus3 = value
-  }.
 
   get wonderous() {
     return playerData.shardMilestones[25]
