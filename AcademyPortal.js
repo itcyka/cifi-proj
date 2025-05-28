@@ -320,7 +320,9 @@ function GetStaticMatBonus() {
   staticMatBonus *= Math.pow(1.05, playerData.diamonds.special.materials || 0)
   if (playerData.diamonds.ultima.materialBonus > 1)
     staticMatBonus *= playerData.diamonds.ultima.materialBonus
-  if (playerData.diamonds.iapCollector) staticMatBonus *= 1.5
+  if (playerData.diamonds.iapCollector) 
+    then if (playerData.ouro.exodus3) staticMatBonus *= 100
+    else staticMatBonus *= 1.5   
 
   // proj
   staticMatBonus *= Math.pow(1.75, playerData.academy.projectLevels[8])
