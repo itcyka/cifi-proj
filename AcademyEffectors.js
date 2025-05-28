@@ -467,6 +467,9 @@ academyEffectorPortal.pages.default.dataLinkage = {
   get ouroinstall5() {
     return playerData.fleet.ouro.installs[4]
   },
+  get exodus3() {
+    return playerData.fleet.ouro.exodus3
+  },
   get warpdrive() {
     return playerData.academy.projectLevels[5]
   },
