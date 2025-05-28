@@ -179,6 +179,7 @@ const sections = [
           '<label class="has-tip" data-bs-toggle="tooltip" data-bs-title="Bio-Meterial Duplicatio Tech">Install 5</label>',
         max: 20,
       },
+      { id: 'exodus3', type: 'checkbox' , label: 'Exodus 3' },
     ],
     style: 'min-width: 260px',
   },
