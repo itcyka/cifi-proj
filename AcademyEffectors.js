@@ -441,7 +441,7 @@ academyEffectorPortal.pages.default.dataLinkage = {
   },
   set exodus3(value) {
     playerdata.fleet.ouro.exodus3 = value
-  }.
+  },
   set warpdrive(value) {
     playerData.academy.projectLevels[5] = value
   },
