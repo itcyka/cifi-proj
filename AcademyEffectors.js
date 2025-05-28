@@ -526,7 +526,7 @@ academyEffectorPortal.pages.default.dataLinkage = {
     playerData.diamonds.iapCollector = value
   },
   set exodus3(value) {
-    playerdata.fleet.ouro.exodus 3 = value
+    playerdata.fleet.ouro.exodus3 = value
   }.
 
   get wonderous() {
